@@ -121,5 +121,8 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+    // ✅ Add this line below to send emails to multiple addresses, you can make Laravel automatically convert it into an array
+    'to' => array_map('trim', explode(',', env('MAIL_TO'))),
+
 
 ];

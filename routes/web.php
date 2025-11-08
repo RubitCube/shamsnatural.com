@@ -13,7 +13,10 @@ use App\Http\Controllers\Order\OrderController;
 use App\Http\Controllers\Common\CommonController;
 use App\Http\Controllers\Reports\ReportController;
 
-
+// temporary route to confirm env values in the browser
+Route::get('/check-mailto', function () {
+    return response()->json(['MAIL_TO' => env('MAIL_TO')]);
+});
 /*|--------------------------------------------------------------------------
 | TEMPORARY CONFIG CLEAR ROUTE
 |--------------------------------------------------------------------------

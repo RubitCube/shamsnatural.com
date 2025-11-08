@@ -64,17 +64,29 @@ class DealerOrderController extends Controller
                 'order_id' => $order_id,
                 'dealer_name' => Auth::user()->dealer_name
             ];
-            $mail_to = explode(',', env('MAIL_TO'));
-            $mail_to_raw = env('MAIL_TO');
-            \Log::info('MAIL_TO env variable:', ['value' => $mail_to_raw]);
 
-            $mail_to = array_filter(array_map('trim', explode(',', $mail_to_raw)));
+            /*Even though your .env file loads fine in Tinker when manually reloaded, Laravel does not read from .env directly once config is cached.It reads from the compiled configuration in bootstrap/cache/config.php.Since MAIL_TO was not referenced in any config file before caching, it never made it into Laravel’s runtime config. env('MAIL_TO') returns null inside your app — even though it exists in .env. */
+
+            //$mail_to = explode(',', env('MAIL_TO'));
+            //$mail_to_raw = env('MAIL_TO');
+            //\Log::info('MAIL_TO env variable:', ['value' => $mail_to_raw]);
+
+            //$mail_to = array_filter(array_map('trim', explode(',', $mail_to_raw)));
+            
+            //cleaner, safer version  
+            $mail_to = config('mail.to');
+            \Log::info('MAIL_TO config:', ['value' => $mail_to]);
+
 
             if (empty($mail_to)) {
                 \Log::error('No valid EMAIL recipients found in MAIL_TO env');
                 // handle error or skip sending mail
             } else {
-                Mail::to($mail_to)->send(new OrderMail($mailData));
+                //SMTP sending restriction splitting sends 08/11/2025 ensures each recipient gets a separate message
+                foreach ($mail_to as $email) {
+                    \Log::info('Sending order mail to: ' . $email);
+                    Mail::to($email)->send(new OrderMail($mailData));
+                }
             }
             return redirect()->route('dealerorder.show')->with('success', 'Order has been placed successfully.');
         } else {
