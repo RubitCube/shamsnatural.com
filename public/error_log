@@ -1,0 +1,78 @@
+[20-Oct-2023 02:41:30 America/Chicago] PHP Warning:  require(/home1/themijok/shamsnatural.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/themijok/shamsnatural.com/public/index.php on line 34
+[20-Oct-2023 02:41:30 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/themijok/shamsnatural.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/themijok/shamsnatural.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/themijok/shamsnatural.com/public/index.php on line 34
+[21-Oct-2023 07:26:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:27:07 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:27:39 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:28:01 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:28:25 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:28:26 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:28:37 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:28:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:29:09 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:30:16 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:30:16 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:30:24 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[21-Oct-2023 07:30:38 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home1/themijok/shamsnatural.com/vendor/composer/platform_check.php on line 24
+[30-Oct-2025 10:51:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealer'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer', '2DmfJ)gJnq;#', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:52:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealer'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer', '2DmfJ)gJnq;#', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:55:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealer'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:55:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:55:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:55:54 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[30-Oct-2025 10:56:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[31-Oct-2025 00:05:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'cs2005.webhostbox.net' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('cs2005.webhostb...', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[31-Oct-2025 00:05:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'cs2005.webhostbox.net' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('cs2005.webhostb...', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[31-Oct-2025 00:53:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'162.241.123.54' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('162.241.123.54', 'shamzgiz_dealer...', '2vB.-cDGy(K_~', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[31-Oct-2025 01:38:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', 'QwedsA@@123', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
+[31-Oct-2025 04:07:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shamzgiz_dealeruser'@'localhost' (using password: YES) in /home1/shamsgiz/shamsnatural.com/public/dbtest.php:11
+Stack trace:
+#0 /home1/shamsgiz/shamsnatural.com/public/dbtest.php(11): mysqli->__construct('localhost', 'shamzgiz_dealer...', 'QwedsA@@123', 'shamzgiz_dealer...')
+#1 {main}
+  thrown in /home1/shamsgiz/shamsnatural.com/public/dbtest.php on line 11
